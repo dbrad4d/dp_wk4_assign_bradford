@@ -8,7 +8,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ##  Introduction
@@ -27,29 +27,26 @@ The links to the Shiny app created to address the primary requirement, along wit
 
 ##  Links
 
-The Shiny app is available here:  <https://dbrad4d.shinyapps.io/dp_wk4_assign_bradford/>.
+The Shiny app is available here:  <https://dbrad4d.shinyapps.io/dp_wk4_assign_bradford/>
 
-Source code for ui.R and server.R files, along with this presentation, are available on GitHub: {Instert Link}
+Source code for ui.R and server.R files, along with this presentation, are available on GitHub: <https://github.com/dbrad4d/dp_wk4_assign_bradford>
 
 ##  This app helps the user... 
 
 This app allows the user to view crime data for each county in the USA to help in the decision-making process to either relocate or visit that area.  It can also help companies understand if the environment is safe for employees as they map out their facilities strategy.
 
-More details around the source data for this app along with how to use the app are on the next two slides.  Here is a snapshot of the core data elements:
+More details around the source data for this app along with how to use the app are on the next two slides
 
-![head(crime_dat)](head.png){ width=50% }
-
-Note that the [value] element represents the crime rate, per capita, for that county and crime type.  For example, for every 1,000 residents in Autauga, Alabama there were 1.75 murders in 2014.
 
 ##  How to use:
 
-This app is very intuitive.  Once launched, you will select the crime type you want to assess, scroll to the bottom, click the "Calculate" button, and then navigate the interactive map to the geographical region you wish to view.  Just hover your mouse over the county you're interested in and the values will pop up.  There is a color-coded legend available to easily see trends and hot spotes.
+This app is very intuitive.  Once launched:
 
-![Select crime type](slider.png){ width=10% }
+1. Select the crime type (radio button) you want to assess, then scroll to the bottom.  Note, you may experience a delay before the crime types display.  Please be patient.
 
-![Click 'Calculate'](calculate.png){ width=5% }
+2. Click the "Calculate" button.
 
-![Navigate the map](map.png){ width=20% }
+3. Navigate the interactive map to the geographical region you wish to view.  Hover your mouse over the county you're interested in and the values will pop up.  There is a color-coded legend available to easily see trends and hot spotes.
 
 
 ##  Notes  
